@@ -5,6 +5,7 @@ module.exports = {
     browser: true
   },
 
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -51,10 +52,7 @@ module.exports = {
     'no-unneeded-ternary': 'error',
     'no-whitespace-before-property': 'error',
     'nonblock-statement-body-position': 'error',
-    'object-property-newline': [
-      'error',
-      { allowAllPropertiesOnSameLine: true }
-    ],
+    'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
     'quote-props': ['error', 'as-needed'],
     quotes: ['warn', 'single'],
     semi: ['error', 'never'],
