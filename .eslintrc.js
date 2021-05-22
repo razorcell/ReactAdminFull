@@ -56,7 +56,7 @@ module.exports = {
       { allowAllPropertiesOnSameLine: true }
     ],
     'quote-props': ['error', 'as-needed'],
-    quotes: ['error', 'single'],
+    quotes: ['warn', 'single'],
     semi: ['error', 'never'],
     'semi-spacing': 'error',
     'space-before-blocks': 'error',
